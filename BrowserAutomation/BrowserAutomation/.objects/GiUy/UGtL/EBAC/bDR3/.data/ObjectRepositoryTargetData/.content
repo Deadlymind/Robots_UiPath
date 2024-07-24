@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QuoOdWDXgkGmuPZqynuVeg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chrome-extension://ofaokhiedipichpaobibbnahnkdoiiah/popup.html?tabid=496499306&amp;url=https%3A%2F%2Ffr.kompass.com%2FsearchCompanies%3Ftext%3Dgranule%2Bde%2Bbois%26searchType%3DCOMPANYNAME" CVScreenId="1647314a-b010-405e-9dd8-6097e4c9f712" CvElementArea="27, 94, 259, 37" CvTextArea="92, 105, 129, 13" CvTextArgument="Locate &quot;Next&quot; button" CvType="Button" DesignTimeRectangle="28, 95, 257, 34" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Instant Data Scraper' role='document' /&gt;&lt;ctrl name='Locate &amp;quot;Next&amp;quot; button' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Instant Data Scraper' role='document' /&gt;&lt;ctrl name='Locate &amp;quot;Next&amp;quot; button' role='push button' automationid='' check:text='Locate &amp;quot;Next&amp;quot; button' /&gt;" Guid="e8b1dc4b-dfc4-463e-b948-742321332f0d" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Instant Data Scraper' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4e2f8763685d1d90fd74108e231889a8.png" xmlns="">0YqoaDP6ZyU2ztYh13qpDtQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

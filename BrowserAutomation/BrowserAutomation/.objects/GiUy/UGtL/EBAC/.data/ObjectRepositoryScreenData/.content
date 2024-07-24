@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="nmLrYatx3kqeClAnAMHyMQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="265, 20, 720, 650" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG+SURBVDhPfZI7SEJhGIZ/R4vCIiWPHTH3tqAhWloiGoJaGiIilxoiaHPsBpbRDbosGVgRKoR0Uyu60dJWS5hFdNPMhO4Q3b7O+ytleuyDFz7+93kO/OccljzZSmVRuaAbNol6d7eh8ADBjjN0cUx2FCX52k67wRgkQSC5oAMDNqb8jqLOYPRGRPHzWaOha5WKzrOyKJCZyYMdZ+jAgIUTU6WRntpxoRU+zyTwUKn8N2DAwuEy7uUQ9Tf+jAxZQS5g4fB3UiUU2AJp5N08NY9cBwcuM+vEfTnA3tZOrgUPz0xjU0qPwGXSZ3r05ORSYpw6kVyLXhoanSDryBhtrq2TQyv8YRC4bLB/8Mu3u0eJca6skWvJS73WAeqx9NPG1g45l1f/MAhcNtHR9eAPRig541PTXETGbPaUHoHLWqtrto+voynl/ukluVa3eLAn93DgMrVKVbw+7/4IhG5ToHQBCwcu/xdqS8smr4IhuojeyQqJAQMWDpfjozDXNxxFI7f08vpG4fsnCbynk3CUBzvO0IEBCyem/o5CeqrNNzv3TmkGHRiwMUVmcC9TReVCX3OLf9bS94hgx9nPnX+GsW+aChybRq67ygAAAABJRU5ErkJggg==" Selector="&lt;html app='chrome.exe' title='Instant Data Scraper' /&gt;" Title="Instant Data Scraper" Url="chrome-extension://ofaokhiedipichpaobibbnahnkdoiiah/popup.html?tabid=496499263&amp;url=https%3A%2F%2Ffr.kompass.com%2FsearchCompanies%3Ftext%3Dgranule%2Bde%2Bbois%26searchType%3DCOMPANYNAME">
+      <imageRef attrName="InformativeScreenshot" originalValue="7329c2c6927c2bb64aaa853dc0408bdd.png" xmlns="">0MZ2HjojcVEiTmvkgJ4TNlQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Locate Next button'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "bDR3ntY2p0-SNRUcxM_9GQ",
+  "Reference": "R2KkXnG8gkWk88yrUaeCdw/bDR3ntY2p0-SNRUcxM_9GQ",
+  "ParentRef": "R2KkXnG8gkWk88yrUaeCdw/EBACrav0akKGeYrDfYAGUw",
+  "Created": "2024-07-24T20:12:07.0554141Z",
+  "Updated": "2024-07-24T20:12:07.0554141Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

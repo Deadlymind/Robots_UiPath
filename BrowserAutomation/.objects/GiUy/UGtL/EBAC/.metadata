@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Instant Data Scraper",
+  "Type": "Screen",
+  "Id": "EBACrav0akKGeYrDfYAGUw",
+  "Reference": "R2KkXnG8gkWk88yrUaeCdw/EBACrav0akKGeYrDfYAGUw",
+  "ParentRef": "R2KkXnG8gkWk88yrUaeCdw/UGtLsst3akCiDOp0pplSDg",
+  "Created": "2024-07-24T20:12:06.9402395Z",
+  "Updated": "2024-07-24T20:12:06.9402395Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

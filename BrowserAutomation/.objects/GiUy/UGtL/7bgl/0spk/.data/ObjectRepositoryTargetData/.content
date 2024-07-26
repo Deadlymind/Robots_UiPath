@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ikcSDvl6_U-GTi4ropx-Sg" Reference="R2KkXnG8gkWk88yrUaeCdw/0spkWWhSUkS__xJZvxw9-g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="2331, 54, 34, 34" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Recherche granule de bois | Kompass International - Google Chrom*' role='pane' /&gt;&lt;ctrl name='Instant Data Scraper Has access to this site' role='menu button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Recherche granule de bois | Kompass International - Google Chrom*' role='pane' /&gt;&lt;ctrl name='Instant Data Scraper Has access to this site' role='menu button' automationid='' check:text='Instant Data Scraper&amp;#xD;&amp;#xA;Has access to this site' /&gt;" Guid="96c84f89-cb86-495c-b8c3-4d7d113c8bbb" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Recherche granule de bois | Kompass International - Google Chrom*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7aa11771b6268ded11ea7388a3c445ff.png" xmlns="">04qmL7l_k0EKYn8TK8v1gPQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

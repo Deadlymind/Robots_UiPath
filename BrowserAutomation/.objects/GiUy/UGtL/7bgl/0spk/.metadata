@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Button 'Instant Data'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "0spkWWhSUkS__xJZvxw9-g",
+  "Reference": "R2KkXnG8gkWk88yrUaeCdw/0spkWWhSUkS__xJZvxw9-g",
+  "ParentRef": "R2KkXnG8gkWk88yrUaeCdw/7bgl0P3dT0yzKoiaQBBf6w",
+  "Created": "2024-07-24T17:43:44.1988646Z",
+  "Updated": "2024-07-24T17:43:44.1988646Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

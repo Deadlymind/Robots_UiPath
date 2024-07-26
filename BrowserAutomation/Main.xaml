@@ -1,0 +1,486 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1513,3981" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Core.Activities.SAP</x:String>
+      <x:String>UiPath.DataService.Activities</x:String>
+      <x:String>UiPath.DataService.Definition</x:String>
+      <x:String>UiPath.Activities.System.Collections</x:String>
+      <x:String>UiPath.Core.Activities.Orchestrator</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Testing.Core</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>Microsoft.Win32.SafeHandles</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>System.Configuration.Assemblies</x:String>
+      <x:String>System.CodeDom.Compiler</x:String>
+      <x:String>System.Buffers</x:String>
+      <x:String>System.Buffers.Text</x:String>
+      <x:String>System.Buffers.Binary</x:String>
+      <x:String>System.Threading</x:String>
+      <x:String>System.Threading.Tasks</x:String>
+      <x:String>System.Threading.Tasks.Sources</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.Unicode</x:String>
+      <x:String>System.Security.Principal</x:String>
+      <x:String>System.Security.Permissions</x:String>
+      <x:String>System.Security.Cryptography</x:String>
+      <x:String>System.Runtime</x:String>
+      <x:String>System.Runtime.Remoting</x:String>
+      <x:String>System.Runtime.ExceptionServices</x:String>
+      <x:String>System.Runtime.ConstrainedExecution</x:String>
+      <x:String>System.Runtime.Versioning</x:String>
+      <x:String>System.Runtime.Loader</x:String>
+      <x:String>System.Runtime.Intrinsics</x:String>
+      <x:String>System.Runtime.Intrinsics.Wasm</x:String>
+      <x:String>System.Runtime.Intrinsics.Arm</x:String>
+      <x:String>System.Runtime.Intrinsics.X86</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.InteropServices.ObjectiveC</x:String>
+      <x:String>System.Runtime.InteropServices.Marshalling</x:String>
+      <x:String>System.Runtime.InteropServices.ComTypes</x:String>
+      <x:String>System.Runtime.CompilerServices</x:String>
+      <x:String>System.Resources</x:String>
+      <x:String>System.Reflection.Metadata</x:String>
+      <x:String>System.Reflection.Emit</x:String>
+      <x:String>System.IO.Enumeration</x:String>
+      <x:String>System.Diagnostics.SymbolStore</x:String>
+      <x:String>System.Diagnostics.Contracts</x:String>
+      <x:String>System.Diagnostics.CodeAnalysis</x:String>
+      <x:String>System.Diagnostics.Tracing</x:String>
+      <x:String>System.Collections.Concurrent</x:String>
+      <x:String>Internal</x:String>
+      <x:String>System.CodeDom</x:String>
+      <x:String>Microsoft.CSharp</x:String>
+      <x:String>System.Linq.Expressions.Interpreter</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>UiPath.Workflow.Runtime</x:String>
+      <x:String>System.Activities.Tracking</x:String>
+      <x:String>System.Activities.Statements.Tracking</x:String>
+      <x:String>System.Activities.Runtime</x:String>
+      <x:String>System.Activities.Runtime.DurableInstancing</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Activities.ParallelTracking</x:String>
+      <x:String>System.Activities.Hosting</x:String>
+      <x:String>System.Activities.Persistence</x:String>
+      <x:String>System.Activities.DurableInstancing</x:String>
+      <x:String>System.ComponentModel.Design.Serialization</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>Microsoft.VisualBasic.FileIO</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Activities.Core</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Definition</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.IO.Pipes</AssemblyReference>
+      <AssemblyReference>System.IO.MemoryMappedFiles</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Registry</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Security.Claims</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.Pkcs</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.ProtectedData</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Resources.Writer</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.StackTrace</AssemblyReference>
+      <AssemblyReference>System.Collections.Concurrent</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="608,3552" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="strUrl">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">https://fr.kompass.com/</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="setKeyword">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">granule de bois</Literal>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Kompass" sap:VirtualizedContainerService.HintSize="546,1802" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="94ef0399-7903-4cfe-be1a-6d0b84b6a7d8" Version="V2" WebDriverMode="Disabled">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="512,1553" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,626" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT search_header'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="94ef0399-7903-4cfe-be1a-6d0b84b6a7d8" Text="[setKeyword]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://fr.kompass.com/" CVScreenId="ff22c1ef-846f-4345-9604-30ab60a509da" CvElementArea="1686, 99, 470, 31" CvType="InputBox" DesignTimeRectangle="1951, 100, 203, 30" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='search_header' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search_header' tag='INPUT' type='search' class='open' placeholder='Qui ? Société, SIREN, SIRET...' aaname='' /&gt;" Guid="47c48eac-29ea-4920-ba96-c1f617d7ed03" InformativeScreenshot="6f0f26cb9751cf6de2bd78092f24d83d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Kompass' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SVG'" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="94ef0399-7903-4cfe-be1a-6d0b84b6a7d8" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://fr.kompass.com/" CVScreenId="90288136-5c77-4e69-8ec3-c9b74bc4f131" CvElementArea="2155, 97, 52, 34" CvType="Button" DesignTimeRectangle="2170, 105, 20, 20" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='search-icon' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='search-icon' tag='svg' type='' class='flaticon' aaname=' &amp;#x9; ' /&gt;" Guid="046c8aa3-e883-429e-9462-22b5671afb7b" InformativeScreenshot="c18a78ead95c3b7965bda5ffbba2e5fa.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Kompass' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+            </Sequence>
+            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="450,169" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="6" Version="V3" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="94ef0399-7903-4cfe-be1a-6d0b84b6a7d8" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://fr.kompass.com/searchCompanies?text=granule+de+bois&amp;searchType=COMPANYNAME" CVScreenId="1d4b5107-54e1-4168-a569-b206bef0f081" CvElementArea="1676, 520, 20, 20" CvType="CloseButton" DesignTimeRectangle="1679, 518, 15, 25" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='searchHelper' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='searchHelper' tag='BUTTON' type='button' class='close' aaname='×' check:innerText='×' /&gt;" Guid="6a1c2257-b947-44fe-a915-9e7e0e0b5485" InformativeScreenshot="8de9d5c2cb6abcaa092d79255254379b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Recherche granule de bois | Kompass International' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'France (460) [ ]'" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="94ef0399-7903-4cfe-be1a-6d0b84b6a7d8" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://fr.kompass.com/searchCompanies/scroll?tab=cmp&amp;pageNbre=5" DesignTimeRectangle="646, 720, 13, 13" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl id='FR' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='FR' tag='INPUT' type='checkbox' class='filter-classif' aaname=' France (460)  ' /&gt;" Guid="5bc43866-32f4-4d03-9dbf-9581af04eaaf" InformativeScreenshot="325f7033517b319b2fc9ce0219ee9a10.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Kompass International' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="830b404b-efeb-409f-b88d-731d26bee563" CvTextArea="685, 717, 92, 14" CvTextArgument="France (460) [ ]" CvType="Text" DesignTimeRectangle="666, 716, 110, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl name='country' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl name='country' tag='LABEL' type='' class='facet_block-label' aaname=' France (460)  ' check:innerText='France (460)' /&gt;" Guid="b866b4df-f8d1-439e-8a20-e1781ed05fc5" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button 'Instant Data''" sap:VirtualizedContainerService.HintSize="450,218" sap2010:WorkflowViewState.IdRef="NClick_20" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="94ef0399-7903-4cfe-be1a-6d0b84b6a7d8" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="ikcSDvl6_U-GTi4ropx-Sg" DesignTimeRectangle="2331, 54, 34, 34" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Recherche granule de bois | Kompass International - Google Chrom*' role='pane' /&gt;&lt;ctrl name='Instant Data Scraper Has access to this site' role='menu button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Recherche granule de bois | Kompass International - Google Chrom*' role='pane' /&gt;&lt;ctrl name='Instant Data Scraper Has access to this site' role='menu button' automationid='' check:text='Instant Data Scraper&amp;#xD;&amp;#xA;Has access to this site' /&gt;" Guid="96c84f89-cb86-495c-b8c3-4d7d113c8bbb" InformativeScreenshot="7aa11771b6268ded11ea7388a3c445ff.png" Reference="R2KkXnG8gkWk88yrUaeCdw/0spkWWhSUkS__xJZvxw9-g" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Recherche granule de bois | Kompass International - Google Chrom*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Button 'Button 'Instant Data''" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable ContentHash="ikcSDvl6_U-GTi4ropx-Sg" DesignTimeRectangle="2331, 54, 34, 34" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Recherche granule de bois | Kompass International - Google Chrom*' role='pane' /&gt;&lt;ctrl name='Instant Data Scraper Has access to this site' role='menu button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Recherche granule de bois | Kompass International - Google Chrom*' role='pane' /&gt;&lt;ctrl name='Instant Data Scraper Has access to this site' role='menu button' automationid='' check:text='Instant Data Scraper&amp;#xD;&amp;#xA;Has access to this site' /&gt;" Guid="96c84f89-cb86-495c-b8c3-4d7d113c8bbb" InformativeScreenshot="7aa11771b6268ded11ea7388a3c445ff.png" Reference="R2KkXnG8gkWk88yrUaeCdw/0spkWWhSUkS__xJZvxw9-g" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Recherche granule de bois | Kompass International - Google Chrom*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 2576, 1408" BrowserType="Chrome" ContentHash="788uujmNY0emC6EYnMq9fA" IconBase64="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" InformativeScreenshot="f4aaba81d2cb4157fcacb42ad535a321.jpg" Reference="R2KkXnG8gkWk88yrUaeCdw/7bgl0P3dT0yzKoiaQBBf6w" Selector="&lt;html app='chrome.exe' url='https://fr.kompass.com/' /&gt;" Title="Kompass" Url="[strUrl]" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Instant Data Scraper" sap:VirtualizedContainerService.HintSize="546,557" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="1f3c8b09-7ff8-4852-9b5d-18f70e9fa84d" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,308" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click 'Locate Next button''" sap:VirtualizedContainerService.HintSize="354,218" sap2010:WorkflowViewState.IdRef="NClick_21" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1f3c8b09-7ff8-4852-9b5d-18f70e9fa84d" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="chrome-extension://ofaokhiedipichpaobibbnahnkdoiiah/popup.html?tabid=496499306&amp;url=https%3A%2F%2Ffr.kompass.com%2FsearchCompanies%3Ftext%3Dgranule%2Bde%2Bbois%26searchType%3DCOMPANYNAME" CVScreenId="1647314a-b010-405e-9dd8-6097e4c9f712" ContentHash="Sp705zdiLUCJrV_4CO_jsA" CvElementArea="27, 94, 259, 37" CvTextArea="92, 105, 129, 13" CvTextArgument="Locate &quot;Next&quot; button" CvType="Button" DesignTimeRectangle="28, 95, 257, 34" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Instant Data Scraper' role='document' /&gt;&lt;ctrl name='Locate &amp;quot;Next&amp;quot; button' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Instant Data Scraper' role='document' /&gt;&lt;ctrl name='Locate &amp;quot;Next&amp;quot; button' role='push button' automationid='' check:text='Locate &amp;quot;Next&amp;quot; button' /&gt;" Guid="e8b1dc4b-dfc4-463e-b948-742321332f0d" InformativeScreenshot="4e2f8763685d1d90fd74108e231889a8.png" Reference="R2KkXnG8gkWk88yrUaeCdw/bDR3ntY2p0-SNRUcxM_9GQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Instant Data Scraper' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="875, 10, 720, 650" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG+SURBVDhPfZI7SEJhGIZ/R4vCIiWPHTH3tqAhWloiGoJaGiIilxoiaHPsBpbRDbosGVgRKoR0Uyu60dJWS5hFdNPMhO4Q3b7O+ytleuyDFz7+93kO/OccljzZSmVRuaAbNol6d7eh8ADBjjN0cUx2FCX52k67wRgkQSC5oAMDNqb8jqLOYPRGRPHzWaOha5WKzrOyKJCZyYMdZ+jAgIUTU6WRntpxoRU+zyTwUKn8N2DAwuEy7uUQ9Tf+jAxZQS5g4fB3UiUU2AJp5N08NY9cBwcuM+vEfTnA3tZOrgUPz0xjU0qPwGXSZ3r05ORSYpw6kVyLXhoanSDryBhtrq2TQyv8YRC4bLB/8Mu3u0eJca6skWvJS73WAeqx9NPG1g45l1f/MAhcNtHR9eAPRig541PTXETGbPaUHoHLWqtrto+voynl/ukluVa3eLAn93DgMrVKVbw+7/4IhG5ToHQBCwcu/xdqS8smr4IhuojeyQqJAQMWDpfjozDXNxxFI7f08vpG4fsnCbynk3CUBzvO0IEBCyem/o5CeqrNNzv3TmkGHRiwMUVmcC9TReVCX3OLf9bS94hgx9nPnX+GsW+aChybRq67ygAAAABJRU5ErkJggg==" InformativeScreenshot="12d104e08d32079b8e1012ea872787ae.png" Selector="&lt;html app='chrome.exe' title='Instant Data Scraper' /&gt;" Title="Instant Data Scraper" Url="chrome-extension://ofaokhiedipichpaobibbnahnkdoiiah/popup.html?tabid=496501025&amp;url=https%3A%2F%2Ffr.kompass.com%2FsearchCompanies%2Ffacet%3Fvalue%3DFR%26label%3DFrance%26filterType%3Dcountry%26searchType%3DCOMPANYNAME%26checked%3Dtrue" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Recherche granule de bois | Kompass International" sap:VirtualizedContainerService.HintSize="546,557" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="ebd8b383-4d01-4ba8-b139-c06ff756bfe8" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,308" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'A /searchCompanies/scro…'" sap:VirtualizedContainerService.HintSize="354,218" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ebd8b383-4d01-4ba8-b139-c06ff756bfe8" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://fr.kompass.com/searchCompanies/facet?value=FR&amp;label=France&amp;filterType=country&amp;searchType=COMPANYNAME&amp;checked=true" CVScreenId="79d06886-35f7-44c0-bd64-0dc5533a8640" CvElementArea="761, 313, 40, 36" CvType="Button" DesignTimeRectangle="762, 314, 38, 34" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='tablescraper-hover' parentid='pagination-div-id' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='tablescraper-hover' parentid='pagination-div-id' tag='A' type='' aaname=' &amp;#x9; &amp;#x9;&amp;#x9; &amp;#x9;  ' /&gt;" Guid="baedf81f-b53a-41d7-bbd7-efa459719966" InformativeScreenshot="09cd8e3d073a218786caf6b43db39a15.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Recherche granule de bois | Kompass International' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="865, 0, 1713, 1392" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="026fad5617b2af49e4890e7593edd868.jpg" Selector="&lt;html app='chrome.exe' title='Recherche granule de bois | Kompass International' /&gt;" Title="Recherche granule de bois | Kompass International" Url="https://fr.kompass.com/searchCompanies/facet?value=FR&amp;label=France&amp;filterType=country&amp;searchType=COMPANYNAME&amp;checked=true" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Instant Data Scraper" sap:VirtualizedContainerService.HintSize="546,548" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" ScopeGuid="e2b52efb-dd0d-4761-8345-6c79ad03d465" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,308" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Start crawling'" sap:VirtualizedContainerService.HintSize="354,218" sap2010:WorkflowViewState.IdRef="NClick_23" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e2b52efb-dd0d-4761-8345-6c79ad03d465" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="chrome-extension://ofaokhiedipichpaobibbnahnkdoiiah/popup.html?tabid=496501341&amp;url=https%3A%2F%2Ffr.kompass.com%2FsearchCompanies%2Fscroll%3Ftab%3Dcmp%26pageNbre%3D6" CVScreenId="ad11ffbd-4a71-4f44-8c33-65644d201ee1" CvElementArea="27, 77, 258, 36" CvTextArea="112, 88, 87, 16" CvTextArgument="Start crawling" CvType="Button" DesignTimeRectangle="28, 78, 257, 34" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Instant Data Scraper' role='document' /&gt;&lt;ctrl name='Start crawling' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Instant Data Scraper' role='document' /&gt;&lt;ctrl name='Start crawling' role='push button' automationid='' check:text='Start crawling' /&gt;" Guid="5828524e-1b83-4f92-9ba4-c7fd72ac4787" InformativeScreenshot="18806beecddbacc14b8c12fd6e82eee4.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Instant Data Scraper' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="875, 10, 720, 650" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG+SURBVDhPfZI7SEJhGIZ/R4vCIiWPHTH3tqAhWloiGoJaGiIilxoiaHPsBpbRDbosGVgRKoR0Uyu60dJWS5hFdNPMhO4Q3b7O+ytleuyDFz7+93kO/OccljzZSmVRuaAbNol6d7eh8ADBjjN0cUx2FCX52k67wRgkQSC5oAMDNqb8jqLOYPRGRPHzWaOha5WKzrOyKJCZyYMdZ+jAgIUTU6WRntpxoRU+zyTwUKn8N2DAwuEy7uUQ9Tf+jAxZQS5g4fB3UiUU2AJp5N08NY9cBwcuM+vEfTnA3tZOrgUPz0xjU0qPwGXSZ3r05ORSYpw6kVyLXhoanSDryBhtrq2TQyv8YRC4bLB/8Mu3u0eJca6skWvJS73WAeqx9NPG1g45l1f/MAhcNtHR9eAPRig541PTXETGbPaUHoHLWqtrto+voynl/ukluVa3eLAn93DgMrVKVbw+7/4IhG5ToHQBCwcu/xdqS8smr4IhuojeyQqJAQMWDpfjozDXNxxFI7f08vpG4fsnCbynk3CUBzvO0IEBCyem/o5CeqrNNzv3TmkGHRiwMUVmcC9TReVCX3OLf9bS94hgx9nPnX+GsW+aChybRq67ygAAAABJRU5ErkJggg==" InformativeScreenshot="d7d66b2e5b9f13b79f646d80221ab578.png" Selector="&lt;html app='chrome.exe' title='Instant Data Scraper' /&gt;" Title="Instant Data Scraper" Url="chrome-extension://ofaokhiedipichpaobibbnahnkdoiiah/popup.html?tabid=496501341&amp;url=https%3A%2F%2Ffr.kompass.com%2FsearchCompanies%2Fscroll%3Ftab%3Dcmp%26pageNbre%3D6" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

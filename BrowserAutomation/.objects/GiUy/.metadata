@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Kompass",
+  "Type": "App",
+  "Id": "GiUyuJ7l4kqx8g03uP74hg",
+  "Reference": "R2KkXnG8gkWk88yrUaeCdw/GiUyuJ7l4kqx8g03uP74hg",
+  "Created": "2024-07-24T17:43:43.5498345Z",
+  "Updated": "2024-07-24T17:43:43.5498345Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
